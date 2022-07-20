@@ -1,15 +1,61 @@
-
-body{
-    padding: 20px;
-    padding-bottom: 500px;
-    background-color: #3d4750;
-}
-#titulo-principal
-    {color: #9fb3c4;
-    background-color: #486681;
-text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Roboto", sans-serif;
 }
 
-.meu-parágrafo{
-    color: #9fb3c4;
+body {
+  background-color: #202020;
 }
+
+header {
+  text-align: center;
+  background-color: #54b454;
+}
+
+.main-content .main-section {
+  display: flex;
+  gap: 12px 25px;
+  margin-top: 40px;
+  justify-content: center;
+}
+.main-content .main-section .cards {
+  background-color: #2c372c;
+  color: #d7dce0;
+}
+.main-content .main-section .img-cards {
+  height: 300px;
+  padding-top: 20px;
+  border-radius: 5px;
+}
+.main-content .main-section .price {
+  font-size: 20px;
+  font-weight: 700;
+  color: #202020;
+}
+
+footer {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #54b454;
+  margin-top: 30px;
+}
+footer nav {
+  display: flex;
+  justify-content: space-around;
+}
+footer nav img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+footer nav h5 {
+  font-size: 20px;
+  padding-top: 20px;
+}/*# sourceMappingURL=style.css.map */
